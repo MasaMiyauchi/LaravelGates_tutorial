@@ -1,4 +1,4 @@
-<!doctype html>
+ multiAuth by using "Gates"<!doctype html1
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel multiAuth by using "Gates"
                 </div>
 
                 <div class="links">
