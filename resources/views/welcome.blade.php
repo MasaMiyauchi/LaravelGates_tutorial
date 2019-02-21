@@ -1,4 +1,4 @@
- multiAuth by using "Gates"<!doctype html1
+<!doctype html1
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
