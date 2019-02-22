@@ -69,7 +69,9 @@
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
-                        <a href="{{ url('/private') }}">Private</a>
+   			@can('admin-only', auth()->user())
+   			 <a href="{{ url('/private') }}">Private</a>
+   			@endcan
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
